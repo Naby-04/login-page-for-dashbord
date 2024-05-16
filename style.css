@@ -1,0 +1,99 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.container {
+  background: linear-gradient(to right, #1c5f1f, #42cd46);
+  width: 30vw;
+  min-width: 400px;
+  margin: auto;
+  text-align: center;
+  padding-top: 80px;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+h1 {
+  color: #fff;
+}
+h1,
+input {
+  margin-bottom: 20px;
+}
+.user,
+.password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.user span {
+  position: relative;
+  left: -9px;
+  background: #219825;
+  color: #fff;
+}
+.user input {
+  min-width: 200px;
+  margin-left: -60px;
+  padding-left: 60px;
+}
+.password input {
+  min-width: 250px;
+  margin-left: 50px;
+  padding-left: 10px;
+}
+.password span {
+  position: relative;
+  left: -51px;
+  background: #42cd46;
+  color: #fff;
+}
+input {
+  background: #fff;
+  display: block;
+  height: 44px;
+  border-radius: 50px;
+  margin-top: 20px;
+  border: none;
+  outline: none;
+}
+span {
+  height: 35px;
+  min-width: 50px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+button {
+  min-width: 250px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #42cd46;
+  color: #fff;
+  text-transform: uppercase;
+}
+.forget {
+  font-size: 10px;
+  display: block;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.attribution {
+  font-size: 8px;
+  text-align: center;
+  margin: 20px;
+}
+.attribution a {
+  color: #fff;
+}
